@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RefMD | Open-source Real-Time Markdown Collaboration</title>
+    <meta name="description" content="RefMD is an open-source real-time Markdown workspace for teams to co-author documentation and share updates.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#">RefMD</a>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#get-started">Get Started</a>
+                <a href="https://refmdio.github.io/docs/" target="_blank" rel="noreferrer">Docs</a>
+                <a href="https://github.com/refmdio/refmd" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="cta-link" href="https://refmd.io/auth/signin">Log in</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-copy">
+                        <p class="badge">Open-source · Real-time Markdown</p>
+                        <h1>Build living documentation together.</h1>
+                        <p class="lead">
+                            RefMD keeps specs, decisions, and notes aligned across teams with live collaboration and extensible plugins.
+                        </p>
+                        <ul class="hero-highlights">
+                            <li><span class="pill">Realtime</span> Write together in the same doc with live presence.</li>
+                            <li><span class="pill">Secure</span> Share anonymous review links without exposing your workspace.</li>
+                            <li><span class="pill">Extendable</span> Create custom plugins to embed the tools and data your team relies on.</li>
+                        </ul>
+                        <div class="hero-actions">
+                            <a class="btn primary" href="https://refmd.io/auth/signup">Start using RefMD</a>
+                            <a class="btn secondary" href="https://refmdio.github.io/docs/" target="_blank" rel="noreferrer">Browse documentation</a>
+                            <a class="btn github" href="https://github.com/refmdio/refmd" target="_blank" rel="noreferrer">View on GitHub</a>
+                        </div>
+                        <p class="hero-sub">Use the hosted space at refmd.io or follow the docs to run RefMD on your own infrastructure.</p>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="browser-frame">
+                        <div class="embed-scale">
+                            <div class="embed-scale-inner">
+                                <iframe class="hero-embed" src="assets/introduce-inline.html" title="RefMD editor preview" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features" class="section">
+            <div class="container section-header">
+                <h2>Documentation that stays aligned with your work</h2>
+                <p>RefMD keeps specs, internal guides, and shared notes in sync alongside the code that backs them.</p>
+            </div>
+            <div class="container feature-grid">
+                <article class="feature-card">
+                    <h3>Real-time co-editing</h3>
+                    <p>See teammates typing live, follow cursors, and review changes together without friction.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Workspace navigation</h3>
+                    <p>Organize content in folders, jump via backlinks, and search across the entire workspace.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Anonymous share links</h3>
+                    <p>Publish read-only pages or time-boxed review links without exposing your entire workspace.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Git Sync backups</h3>
+                    <p>Back up your workspace into your own Git repository for audit trails and recovery.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Plugin extensions</h3>
+                    <p>Add custom panes, toolbars, or automations with community-built plugins.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="get-started" class="section">
+            <div class="container section-header">
+                <h2>Get started with RefMD</h2>
+                <p>Explore the project on GitHub, follow the docs, and shape RefMD around your team's workflow.</p>
+            </div>
+            <div class="container start-grid">
+                <article class="start-card">
+                    <h3>Use the hosted app</h3>
+                    <p>Sign up for the managed RefMD service and start collaborating in minutes.</p>
+                    <ul>
+                        <li>Access RefMD at refmd.io with authentication, storage, and updates managed for you.</li>
+                        <li>Share pages with secure links without running infrastructure yourself.</li>
+                    </ul>
+                    <a class="btn primary" href="https://refmd.io/auth/signup">Sign up for RefMD</a>
+                </article>
+                <article class="start-card">
+                    <h3>Self-host RefMD</h3>
+                    <p>Follow the deployment guides to run RefMD inside your own infrastructure.</p>
+                    <ul>
+                        <li>Review the <a href="https://refmdio.github.io/docs/quick-start/" target="_blank" rel="noreferrer">Quick Start</a> for setup instructions.</li>
+                        <li>Dive into architecture and integration docs to customise your deployment.</li>
+                    </ul>
+                    <a class="btn secondary" href="https://refmdio.github.io/docs/" target="_blank" rel="noreferrer">Explore docs</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="cta" class="section cta">
+            <div class="container cta-inner">
+                <h2>Contribute to RefMD</h2>
+                <p>Report issues, improve docs, or build plugins—the roadmap is community driven.</p>
+                <div class="cta-actions">
+                    <a class="btn primary" href="https://github.com/refmdio/refmd" target="_blank" rel="noreferrer">Visit the repository</a>
+                    <a class="btn secondary" href="https://refmdio.github.io/docs/" target="_blank" rel="noreferrer">Visit the docs</a>
+                </div>
+                <p class="cta-note">Questions or deployment stories? Reach us at <a href="mailto:contact@refmd.io">contact@refmd.io</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> RefMD</span>
+            <nav>
+                <a href="https://refmdio.github.io/docs/" target="_blank" rel="noreferrer">Documentation</a>
+                <a href="https://github.com/refmdio/refmd" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="mailto:contact@refmd.io">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        const embedScaleRoot = document.querySelector('.embed-scale');
+        if (embedScaleRoot) {
+            const visualRoot = embedScaleRoot.closest('.hero-visual');
+            const getNumberVar = (name, fallback) => {
+                if (!visualRoot) return fallback;
+                const value = getComputedStyle(visualRoot).getPropertyValue(name).trim();
+                const parsed = parseFloat(value);
+                return Number.isFinite(parsed) ? parsed : fallback;
+            };
+
+            const baseWidth = getNumberVar('--embed-width', 1400);
+            const baseHeight = getNumberVar('--embed-height', 820);
+
+            const updateEmbedScale = () => {
+                const availableWidth = embedScaleRoot.offsetWidth || baseWidth;
+                const scale = Math.min(1, availableWidth / baseWidth);
+                embedScaleRoot.style.setProperty('--embed-scale', scale.toFixed(4));
+                embedScaleRoot.style.setProperty('--embed-height-px', `${(baseHeight * scale).toFixed(1)}px`);
+            };
+
+            updateEmbedScale();
+
+            if (typeof ResizeObserver !== 'undefined') {
+                const observer = new ResizeObserver(() => updateEmbedScale());
+                observer.observe(embedScaleRoot);
+            } else {
+                window.addEventListener('resize', updateEmbedScale, { passive: true });
+            }
+        }
+    </script>
+</body>
+</html>
