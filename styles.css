@@ -91,10 +91,6 @@ a:hover {
     box-shadow: 0 12px 30px rgba(99, 102, 241, 0.3);
 }
 
-.header-login-mobile {
-    display: none;
-}
-
 .hero {
     padding: 6.5rem 0 5rem;
     overflow: visible;
@@ -266,6 +262,10 @@ a:hover {
 .btn.github:hover {
     border-color: rgba(255, 255, 255, 0.4);
     transform: translateY(-2px);
+}
+
+.header-login-mobile {
+    display: none;
 }
 
 .browser-frame {
